@@ -7,7 +7,6 @@ import image4 from '../../public/Back_Of_My_Mind_By_H.E.R.png';
 export default function Album() {
     return (
     <div>
-      <h1 className="text-white">Albums</h1>
       <section class="ph3 tc text-xl" id="streaming">
         <a class="link white-60 bg-transparent hover-white inline-flex items-center ma2 tc pa4" href="https://music.apple.com/us/artist/h-e-r/123049323" target="_blank" rel="noreferrer">🔂 Apple Music</a>
         <a class="link white-60 bg-transparent hover-white inline-flex items-center ma2 tc pa4" href="https://open.spotify.com/artist/3Y7RZ31TRPVadSFVy1o8os" target="_blank" rel="noreferrer">🔂 Spotify</a>
