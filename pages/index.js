@@ -16,6 +16,7 @@ export default function Home ({ posts }) {
       <Head>
         <title>SheGang Fansite</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       <FeaturedPosts />
      
