@@ -41,7 +41,7 @@ export const getPosts = async () => {
 
 export const getCategories = async () => {
   const query = gql`
-    query GetCategories {
+    query GetGategories {
         categories {
           name
           slug
@@ -254,18 +254,3 @@ export const getRecentPosts = async () => {
 
   return result.posts;
 };
-
-// export const getAlbums = async (slug) => {
-//   const albums = await fetch('/api/albums', {
-//     method: 'POST',
-//     headers: {
-//       'Content-Type': 'application/json',
-//     }
-//   });
-    
-
-
-//   const album = await request(graphqlAPI, query, { slug });
-
-//   return albums;
-// };
