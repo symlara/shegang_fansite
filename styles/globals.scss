@@ -9,7 +9,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: nixie one, serif;
+  font-family: nixie one, serif !important;
   &:before{
     content:'';
     content: "";
@@ -140,6 +140,11 @@ a {
   
 }
 
+.updates-image Image {
+  width: 100%;
+  display: cover;
+}
+
 
 /*
  media queries */
@@ -155,6 +160,7 @@ a {
   font-size: 12px;
   width: 100%;
 }
+
 
 .shegang h1 {
   text-align: center;

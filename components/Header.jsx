@@ -31,6 +31,7 @@ const Header = () => {
           ))}
         </div> } 
         <nav className="nav categories">
+                <Link href="/updates/h.e.r-updates"><span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer categories">H.E.R Updates</span></Link>
                 <Link href="/videos/videos"><span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer categories">Videos</span></Link>
                 {/* <Link href="/dashboard/dashboard"><span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">Dashboard</span></Link> */}
                <Link href="/samples/samples"><span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer categories">Samples</span></Link>
@@ -44,7 +45,7 @@ const Header = () => {
 
       </div>
         <div className="description">
-          <p className="text-white text-center text-base font-semibold">A place for all H.E.R fans to find all things H.E.R. SHE GANG activities school, and career resources, also a sense of community!</p>
+          <p className="text-white text-center text-base font-semibold">A place for all H.E.R fans to find all things H.E.R. , SHE GANG activities school, and career resources, also a sense of community!</p>
         </div>
      
     </div>
